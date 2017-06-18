@@ -1,0 +1,35 @@
+FREEZIC
+
+Sistema para compartir musica de manera libre
+
+Cada usuario que entre a buscar musica tiene la opcion de entrar como usuario no registrado, 
+es decir, solo para descargar musica o bien como usuario registrado en donde se le permitira ademas
+compartir una carpeta especifica con el resto de los usuarios.(solo seran archivos correspondientes a formatos de audio)
+
+Se creara un servidor que almacene informacion de las canciones como (todo en memoria, depende
+de los usuarios que esten conectados):
+
+    nombre
+    titulo
+    artista
+    
+    hostOrigen
+    ipOrigen
+    o bien el usuario que la tenga
+
+Cada vez que un usuario se registre debe seleccionar que carpeta desea compartir, posteriormente
+se puede modificar la ruta (validar que si se conecta de otro pc y la carpeta no se encuentra disponible
+compartir nada)
+
+Se debe validar que un mismo archivo este en mas de un origen para poder optimizar su descarga
+y de ser asi dividirlo en 10 partes y ver cuantos origenes disponibles se encuentran
+
+Si un origen se desconecta se debe mandar un aviso especifico.
+
+
+Para el tema del servidor:
+
+    Recibe solicitudes las cuales pueden ser:
+
+        
+    

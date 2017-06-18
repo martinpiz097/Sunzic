@@ -1,0 +1,2 @@
+0.1 --> comenzamos a crear la estructura del proyecto y del sistema, elegido UDP como protocolo de transferencia debido a su velocidad, las validaciones de paquetes
+	se haran desde la aplicacion. 
